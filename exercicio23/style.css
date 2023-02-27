@@ -5,18 +5,14 @@
 }
 h1{
     font-size: 2em;
+    text-shadow: 2px 2px rgba(128, 128, 128, 0.473) ;
+    text-align: center;
 }
-#form1{
-    background-color: rgba(0, 0, 0, 0.253);
+#form1, #form3{
+    background-color: rgba(4, 29, 253, 0.479);
 }
-#form2{
-    background-color: rgba(136, 255, 0, 0.507);
-}
-#form3{
-    background-color: rgba(0, 0, 0, 0.253);
-}
-#form4{
-    background-color: rgba(136, 255, 0, 0.507);
+#form2, #form4{
+    background-color: rgba(9, 100, 40, 0.39);
 }
 fieldset{
     border: 2px solid black;
@@ -27,5 +23,5 @@ fieldset{
     background-color: rgba(235, 57, 57, 0.459);
 }
 #formpai{
-    background-color: rgba(190, 224, 145, 0.541);
+    background-color: rgba(150, 150, 148, 0.541);
 }

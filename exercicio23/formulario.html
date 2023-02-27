@@ -9,19 +9,19 @@
 </head>
 <body>
     
-    <h1>formulario e tipos de input</h1>
+    <h1>Formulario e tipos de input</h1>
     <form action="cadastro.php" autocomplete="off"> <!--desliga caixa de sugentoes de nomes-->
         <!--action vai precisar para o php-->
     <fieldset id="formpai">
         <legend>Formulario</legend>
         <fieldset id="form1">
-            <legend>dados pessoais</legend>
-            <p><label for="inome">nome:</label> <input type="text" name="nome" id="inome"></p> <!--o name e o id pode ser igual-->
+            <legend>Dados pessoais</legend>
+            <p><label for="inome">Nome:</label> <input type="text" name="nome" id="inome"></p> <!--o name e o id pode ser igual-->
             <p><label for="isobrenome">sobrenome:</label> <input type="text" name="sobrenome" id="isobrenome"></p>
         </fieldset>
 
         <fieldset id="form2">
-            <legend>sexo</legend>
+            <legend>Sexo</legend>
             <input type="radio" name="sex" id="imasc">
             <label for="imasc">masculino</label>
             <input type="radio" name="sex" id="ifem">
@@ -34,7 +34,7 @@
         <br>
         <fieldset id="form3">
             <p>
-                <label for="icor">cor:</label>
+                <label for="icor">Cor:</label>
                 <input type="color" name="cor" id="icor">
             </p>
             <p>      
@@ -62,7 +62,6 @@
                     <input type="file" name="arquivo" id="iarquivo">
                 </p>
             </fieldset> <!--quando quarquer arquivo do formulario for maior do que 3000bytes tem que por method="post" dentro do form-->
-    
     </fieldset>
         </form>
 
