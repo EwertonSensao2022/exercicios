@@ -3,19 +3,13 @@
     padding: 0px;
 }
 body{
-    background-color: rgba(159, 226, 238, 0.651);
-    margin: 50px 50px;
-}
-h2{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
-    margin-left: 200px;
-    padding: 20px;
+    background-image: url(fundo.jpg);
+    background-size: contain;
 }
 #nos{
     background-image: url(eu_e_ela.jpg);
-    left: 1220px;
-    bottom: 490px;
+    left: 1150px;
+    bottom: 460px;
     position: absolute;
     border-radius: 50%;
     width: 123px;
@@ -23,33 +17,108 @@ h2{
     background-position: bottom center;
     background-repeat: no-repeat;
     background-size: cover;
+    box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.733) ;
 } 
 h1{
-    color: rgba(57, 29, 133, 0.801);
+    color: rgb(216, 15, 116);
     text-align: center;
     text-shadow: 2px 1px rgb(235, 180, 167);
     font-size: 50px;
+    margin:180px 70px 0px;
 }
-#animais{
-    background-color: rgb(240, 191, 241);
+p{
+    background-image: url(https://img.freepik.com/fotos-gratis/fundo-de-papel-de-espaco-de-design-texturizado_53876-42312.jpg?w=740&t=st=1678382091~exp=1678382691~hmac=039d31f6d3c9ff51b45d9966d2740b3c823ca07d551f8116ec27240a4b11c2e9);
+    margin: 10px 50px;
     padding: 10px;
+    font-size: 17px;
+}
+a{
+    text-decoration: none;
+}
+li a{
+    text-shadow: 1px 1px;
+    font-size: 25px;
+    font-family: sans-serif;
+    color: rgb(250, 248, 248);
+    text-shadow: 2px 2px 2px black;
+}
+li{
+    list-style: none;
+    margin: 0px 40px ;
+    font-size: 20px;
+    display: inline;
+}
+ul{
+    margin:20PX 123px;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(199, 2, 51, 0.486);
+    width: 864px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.712);
+}
+li a:hover{
+    background-color: rgb(255, 0, 191);
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+.button {
+    background-color: transparent;
+}
+.wrapper-animais{
+    width: 900px;
+    border: 2px solid black;
+    background-color:  rgba(240, 191, 241, 0.664);
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    padding: 20px;
+    color: blue;
+    text-shadow: 1px 1px 2px;
+    text-align: center;
+}
+.animais{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
     }
 img{
     width: 200px;
     border-radius: 10% ;
-    padding: 0px 10px 20px 30px;
+    padding: 0px 50px 20px 30px;
+    margin-top: 10px;
+    object-fit: contain; /*a imagem estava*/
 }
-article{
-    width: 900px;
-    margin-left: 200px;
-    border: 2px solid black;
-}
-#esportes{
-    padding: 10px 30px;
+.esportes {
     font-size: 20px;
-}
-#esportes {
+    margin-top: 10px;
     display: flex;
-    word-spacing: 230px;
+    background-color:rgba(240, 191, 241, 0.664);
+    border: 2px solid black;
+    flex-direction: column; /*para reorganizar depois do display:flex*/
 }
-
+.wrapper-sports{
+    display: flex;
+    padding: 0px 20px;
+    width: 860px;
+    gap: 20px; /*ESPAÇAMENTO ENTRE OS ELEMENTOS*/
+}
+header{
+    padding-left: 100px;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sport{
+    width: initial;
+    border: none;
+    display: block;
+}
+.sport img{
+    display: flex;
+    
+}
