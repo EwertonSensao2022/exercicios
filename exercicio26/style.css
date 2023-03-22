@@ -1,0 +1,44 @@
+@charset "utf8";
+
+header{
+    background-color: grey;
+}
+
+header h1{
+    padding: 10px;
+    text-align: center;
+}
+
+#burguer{
+    background-color: rgb(43, 40, 40);
+    width: 97.3vw;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#burguer:hover{
+    background-color: rgba(56, 53, 53, 0.705);
+    color: black;
+}
+
+menu{
+    display: none;
+}
+
+menu ul{
+    list-style-type: none;
+    padding-right: 10%;
+}
+
+menu a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    background-color: rgb(46, 43, 43);
+    text-align: center;
+    color: aliceblue;
+    border-top: 2px solid gray;
+    
+}
